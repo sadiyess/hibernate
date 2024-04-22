@@ -11,17 +11,17 @@ public class RunnerSave01 {
     public static void main(String[] args) {
 
         Student01 student1 = new Student01();
-        student1.setId(1007);
+        student1.setId(1001);
         student1.setName("Fatma Hanim");
         student1.setGrade(70);
 
         Student01 student2 = new Student01();
-        student2.setId(1008);
+        student2.setId(1002);
         student2.setName("Ahmet Bey");
         student2.setGrade(70);
 
         Student01 student3 = new Student01();
-        student3.setId(1009);
+        student3.setId(1003);
         student3.setName("Dogu Bey");
         student3.setGrade(70);
 

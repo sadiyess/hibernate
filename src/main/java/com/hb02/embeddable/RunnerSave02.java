@@ -45,7 +45,7 @@ public class RunnerSave02 {
         Session session = sf.openSession();
         Transaction tx = session.beginTransaction();
 
-        //session ile bir nesne üretiyorsanız bu nesne
+        //session ile bir nesne üretiyorsanız bu nesne entity olmalı
         session.save(student1);
         session.save(student2);
 

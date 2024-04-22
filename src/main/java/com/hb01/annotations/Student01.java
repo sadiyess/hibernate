@@ -12,7 +12,7 @@ public class Student01 { //student01
 
     @Id //primary key olusmasini sagliyor
    // @Column(name = "std_id")
-    private int id; //Student01 std1 = new Stdent01(); std1.id
+    private int id; //Student01 std1 = new Student01(); std1.id
 
     //Column annotationı zorunlu degil ancak customize edebilmek icin gerekli
     @Column(name = "student_name", length = 100, nullable = false, unique = false)
@@ -25,7 +25,7 @@ public class Student01 { //student01
 // zaman ilgili tabloya kolon olarak eklenmez
     private int grade; //70
 
-//    @Lob //large object ile buyu datalar tutuluyor
+//    @Lob //large object ile buyuk datalar tutuluyor
 //    private byte[] image;
 
 
